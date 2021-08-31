@@ -1,6 +1,6 @@
 document.write;var loadToc,loadCategories,_toc={init:function(){
     var cfg={homePage:"https://tutlenc.blogspot.com",
-    maxResults:20,numChars:270,thumbWidth:140,thumbHeight:95,
+    maxResults:10,numChars:20,thumbWidth:140,thumbHeight:95,
     navText:"Tampilkan artikel selanjutnya &#9660;",resetToc:"Kembali ke Awal",
     noImage:"http://2.bp.blogspot.com/-11FkySHGB5Y/TpZ6SSbsF2I/AAAAAAAAA94/zK10UaL7jgo/s1600/images.jpeg",
     loading:"<span>Memuat...</span>",counting:"<div>Memuat artikel...</div>",searching:"<span>Mencari...</span>"},
