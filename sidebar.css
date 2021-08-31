@@ -1,0 +1,37 @@
+/*--side nav bar--*/
+    
+    /*Main Nav*/
+    .sidenav{height:100%;width:100%;position:fixed;z-index:9999;top:0;left:0;background-repeat: repeat;
+        background-image: url(https://1.bp.blogspot.com/-QPe_Ez57Ucw/YMg19x6SPnI/AAAAAAAAB7E/01EmwBu-8_QmWk3yhv-Pt73-dENEcnx7ACLcBGAsYHQ/s0/bg.jpg);
+        overflow-x:hidden;transition:0.02s;max-width:100%;display:none}
+    /*Close Menu*/
+    .sidenav .closebtn{position:fixed;bottom:20px;right:9;padding:7px 0 0 10px;line-height:1}
+    .sidenav .closebtn a{color:rgb(243, 10, 10);font-size:25px;line-height:0}
+    
+    /*Main Menu*/
+    .sidenav ul.menu{margin-left: 2px;margin:0;padding:0;font-size:15px;margin-top:110px;color:red;}
+    @media screen and (max-width:250px){
+        .sidenav ul.menu{font-size:12px}}
+    .sidenav ul.menu li i{padding-right:5px}
+    .sidenav ul.menu li a{padding:8px 8px 8px 15px;text-decoration:none;color:red;display:block;transition:0.3s;background:#fff}
+    /*Submenu*/
+    .sidenav ul.menu li ul.submenu{display:none;margin:0;padding:0}
+    .submenualat{display: inline;margin: 0;padding: 0;}
+    .sidenav ul.menu li ul.submenualat li a{background:#7aeec18f;color:rgb(252, 247, 247);padding-left:35px}
+    .sidenav ul.menu li ul.submenu li a{background:#fff;color:rgb(252, 247, 247);padding-left:35px}
+    .sidenav a:hover,.offcanvas a:focus{color:#08f730}
+
+    /*sitemapsatulabel*/
+#sitemap{background-image: linear-gradient(to right, rgba(0, 0, 0, 0.747) ,rgba(255, 0, 0, 0.747), rgba(255, 255, 255, 0.747)); width:100%; border:1px solid #b7b8b9dc;
+    -webkit-box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);
+    -moz-box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);
+    box-shadow:4px 4px 8px 2px rgba(0,0,0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;}
+  judulsite{color:#FFF;font-weight:bold;margin:0 -5px;
+  padding:1px 0 2px 11px;background-image: linear-gradient(to right, black ,red, white);
+  box-shadow:8px 6px 8px 0 white;
+  display:block;border-top: rgb(252, 6, 6) 1px solid;}
+  ol{font-weight:normal;background-image: linear-gradient(to right, black ,red, white);margin-left: 2px;}
+  ol li{border-bottom: rgb(165, 163, 163) 1px solid;margin-right:5px;padding:26px;font-size: 14pt;}
+  ol a{color: rgb(252, 249, 249);text-decoration: none;}
