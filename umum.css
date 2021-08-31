@@ -1,0 +1,130 @@
+/*header*/
+.head{
+  top: 0px;
+  left: 0;
+  position: fixed;
+  background-image: url(https://1.bp.blogspot.com/-QPe_Ez57Ucw/YMg19x6SPnI/AAAAAAAAB7E/01EmwBu-8_QmWk3yhv-Pt73-dENEcnx7ACLcBGAsYHQ/s0/bg.jpg);
+  background-repeat: repeat;
+  height: 110px;
+  width: 100%;
+  box-shadow: 8px 6px 8px 0 rgba(5, 0, 0, 0.808);
+}
+/*head logo*/
+.mylogo{
+  float: center;
+  margin-top: 50px;
+  width: 65%;
+  height: 60px;
+}
+/*headermenu*/
+.headermenu{
+  left: 0;
+  right: 0;
+  top: 110px;
+  display: block;
+  max-width: 100%;
+  overflow: scroll;
+  overflow-y: hidden;
+  position: fixed;
+  z-index: 5;
+  background: #fff;
+  height: 35px;
+  line-height: 12.5px;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 8px 10px 8px 0 rgba(5, 0, 0, 0.808);
+}
+.headermenu ul{
+  width: max-content;
+  margin: 0 0 0 0;
+}
+.headermenu ul li{
+  float: left;
+  font-size: 14px;
+  padding: 6px 8px;
+  display: block;
+  text-align:center;
+  text-transform:uppercase;
+}
+ .headermenu ul li a:hover {
+   color:#05fd1a;
+   border-bottom:2px solid #05fd1a;
+}
+ .headermenu ul li a {
+   color:#444;
+   padding: 8px 5px;
+   text-decoration: none;
+}
+ .headermenu ul li.satu1 {
+   padding: 8px 5px;
+   width: 100px;
+   position:fixed;
+   left:-1px;
+   background-color: rgb(246, 250, 247);
+}
+ .headermenu ul li.satu1 span {
+   background: #444;
+   padding:11.5px 10.5px 10px;
+   color:#fff;
+   vertical-align: -6px;
+   }
+.headermenu ul li.satu1:after {
+   content:'';
+   display:inline-block;
+   position:absolute;
+   border-left:12px solid #444;
+   border-top:8px solid transparent;
+   border-bottom:8px solid transparent;
+   right:-10px;
+   top:4px;
+}
+@media screen and (max-width: 640px) {
+.headermenu {
+   display:block;
+}
+}
+@media only screen and (max-width:640px) {
+#wrapper {
+   padding: 100px 15px 15px;
+}
+}
+
+/*css button*/
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 11pt;
+  margin: 10px;
+  padding: 40px 20px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  float: left;
+  width: 40%;
+  height: 100px;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+  background-image: linear-gradient(to right, black, red);
+}
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #fdcf04 inset, 0 0 10px 4px #fdcf04;
+  border-color: #fdcf04;
+}
