@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="jv-java" xml:lang="jv">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <meta http-equiv="X-UA-Compatible" content="text/html;" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D550RNN478"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D550RNN478');
+</script>
+ 
+ <link href='https://raw.githack.com/gurubaru/balitranslate/main/aksaraBalifont.css' rel='stylesheet' type='text/css'/>
+ <link rel="stylesheet" href="https://raw.githack.com/gurubaru/bukusaku/apltran/apltran.css" type="text/css" charset="utf-8" />
+ <link charset="utf-8" href="https://raw.githack.com/gurubaru/balitranslate/main/balii.css" rel="stylesheet" type="text/css"/>
+ <script charset="utf-8" src="https://raw.githack.com/gurubaru/balitranslate/main/jquerytrans.js" type="text/javascript"></script>
+ <script charset="utf-8" language="javascript" src="https://raw.githack.com/gurubaru/balitranslate/main/scripttrans.js" type="text/javascript"></script>
+<script src="https://raw.githack.com/gurubaru/bukusaku/apltran/apltranjw.js" type="text/javascript" language="javascript" charset="utf-8"></script>
+ <script src="https://raw.githack.com/gurubaru/balitranslate/main/scripttrans.js" type="text/javascript" language="javascript" charset="utf-8"></script> 
+ </head>
+<body onload="document.getElementById('inp_txt').focus();">
+    <!--logoheader-->
+    <div class="head"><img src="https://1.bp.blogspot.com/-vGEaQBE1Xb4/YMg1Anfvq1I/AAAAAAAAB68/cyDIxSpsuwU4QnPl7lFgJvO61PrtKso6QCLcBGAsYHQ/s0/logo-tutlenc.png" alt="tempat belajar bahasa dan aksara bali" class="mylogo"></div>
+    <!--menutop-->
+    <div class="headermenu">
+        <ul>
+          <li><a href="https://raw.githack.com/gurubaru/bukusaku/apltran/apltran/tlb.html">Translate Latin-Bali</a></li>
+            <li><a href="https://raw.githack.com/gurubaru/bukusaku/apltran/tlj.html">Translate Latin-Jawa</a></li>
+            <li><a href="http://raw.githack.com/gurubaru/bukusaku/apltran/hb.html">Hari Baik</a></li>
+            <li><a href="http://raw.githack.com/gurubaru/bukusaku/apltran/pb.html">Pengayam Bali</a></li>
+        </ul>
+    </div>
+    <!--aplikasi-->
+    <br/><div class="background" id="container">
+         <div id="bd" role="main">
+             <textarea id="inp_txt" class="tb" placeholder="ketik huruf latin disini"></textarea>
+             <div id="transdiv" class="gb">
+                <p><abbr title="Teks yang Anda ketik/kopipas akan muncul pratayangnya di sini."></abbr></p>
+                    <button class="js-textareacopybtn">Salin Makejang</button>
+					<textarea class="js-copytextarea" readonly id="prev_label" placeholder="aksara jawa muncul disini"></textarea>                
+            </div></div>
+        </div><hr/>
+        <div class="background">
+             <table style="font-family:Arial; font-size: small;" width="100%"><tbody><tr><td style="width:40%">
+               <input type="radio" name="mode" value="ketik" checked="checked">Mode Ketik: 'e' = taling, 'x' = pepet <abbr></abbr><br />
+               <input type="radio" name="mode" value="kopas">Mode Kopas: 'e' = pepet, 'è'/'é' = taling <abbr></abbr>
+             </td><td style="width:20%">
+               <input type="radio" name="murda" value="pakai" checked="checked">Pakai Murda <abbr</abbr><br />
+               <input type="radio" name="murda" value="tidak">Tidak pakai Murda <abbr></abbr>
+             </td><td style="width:20%">
+               <input type="radio" name="diftong" value="pakai">Pakai diftong <abbr</abbr><br />
+               <input type="radio" name="diftong" value="tidak" checked="checked">Tidak pakai diftong <abbr></abbr>
+             </td><td style="width:20%">
+               <input type="radio" name="spasi" value="without">Tanpa spasi <abbr></abbr><br />
+               <input type="radio" name="spasi" value="with" checked="checked">Dengan spasi <abbr></abbr>
+             </td></tr></tbody></table>
+            <p>Untuk adeg-adeg, ketik karakter pipa "|" (tanpa tanda petik).</p>
+        </div>
+<!--tombol copy-->
+<script type='text/javascript'>
+  var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
+  copyTextareaBtn.addEventListener('click', function(event) {
+    var copyTextarea = document.querySelector('.js-copytextarea');
+    copyTextarea.select();
+    try {
+      var successful = document.execCommand('copy');
+      var msg = successful ? 'successful' : 'unsuccessful';
+      console.log('Copying text command was ' + msg);
+    } catch (err) {
+      console.log('Oops, unable to copy');
+    }
+  });
+  </script>  
+</body>
+</html>
