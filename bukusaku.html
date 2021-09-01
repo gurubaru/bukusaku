@@ -22,7 +22,7 @@
       <!--headermenu-->
     <div class="headermenu">
       <ul>
-        <li><a onclick="Openhp()">Home Page</a></li>
+        <li><a href="https://tutlenc.blogspot.com">Home Page</a></li>
 		<li><a onclick="OpenParibasa()">Paribasa</a></li>
         <li><a onclick="OpenAksara()">Aksara</a></li>
         <li><a onclick="OpenSatua()">Satua</a></li>
@@ -43,7 +43,7 @@
     <button class="btn third" onclick="OpenGending()">Gending</button>
     <button class="btn third" onclick="OpenUger()">Uger-Uger</button>
     <button class="btn third" onclick="OpenTirtayatra()">Tirtayatra</button>
-    <button class="btn third" onclick="Openhp()">Home Page</button>
+	<button class="btn third"><a href="https://tutlenc.blogspot.com">Home Page</a></button>
     <!--akhir isi beranda-->
           <!--menu paribasa-->        
 <div class="sidenav" id="paribasa">
@@ -200,35 +200,6 @@
   function closeUger(){document.getElementById("uger").style.display="none"}
   //]]>
   </script>
-  <!--menu homepage-->        
-<div class="sidenav" id="rumah">
-  <div class="head"><img src="https://1.bp.blogspot.com/-vGEaQBE1Xb4/YMg1Anfvq1I/AAAAAAAAB68/cyDIxSpsuwU4QnPl7lFgJvO61PrtKso6QCLcBGAsYHQ/s0/logo-tutlenc.png" alt="tempat belajar bahasa dan aksara bali" class="mylogo"></div>
-  <ul class="menu">
-   <li><a onclick="closehp()">TUTUP</a></li>
-   </ul>
-   <!--sitemap homepage-->
-   <div id="table-outer"> 
-    <table><tbody> 
-        <tr><td><label for="feed-order">Urutkan artikel berdasarkan:</label></td> 
-            <td><select id="feed-order"> 
-                <option selected="" value="published">Artikel terbaru</option> 
-                <option value="updated">Artikel yang terakhir di update</option> </select></td></tr> 
-        <tr><td><label for="label-sorter">Filter artikel berdasarkan kategori:</label></td> 
-            <td><select disabled="" id="label-sorter"> <option selected="">Loading....</option> </select></td></tr> 
-        <tr> <td><label for="feed-q">Cari artikel dengan kata kunci:</label></td> 
-            <td><form id="post-searcher"> <input id="feed-q" type="text" placeholder="Ketik dan tekan ENTER"/> </form> </td></tr> 
-    </tbody></table> 
-</div> <div style="background-color: #fff;">
-<header style="background-color: rgb(173, 166, 166);text-align: center;" id="result-desc"></header> 
-<ul id="feed-container"></ul> 
-<div id="feed-nav"> </div>
-<script src="https://raw.githack.com/gurubaru/bukusaku/main/sitemapgambar.js" type="text/javascript" charset="utf-8"></script>
-</div>
-<script type="text/javascript">
-  //<![CDATA[
-  function Openhp(){document.getElementById("rumah").style.display="block"}
-  function closehp(){document.getElementById("rumah").style.display="none"}
-  //]]></script>
-    </div>
+  </div>
   </body>
 </html>
