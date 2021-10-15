@@ -7,6 +7,7 @@
   background-repeat: repeat;
   height: 50px;
   width: 100%;
+z-index:100;
 }
 /*head logo*/
 .mylogo{
@@ -14,6 +15,7 @@
   top: 0;
   width: 50%;
   height: 40px;
+z-index:100;
 }
 body{
 	margin-top:90px;
@@ -29,7 +31,7 @@ body{
   overflow: scroll;
   overflow-y: hidden;
   position: fixed;
-  z-index: 5;
+  z-index: 100;
   background: #fff;
   height: 35px;
   line-height: 12.5px;
